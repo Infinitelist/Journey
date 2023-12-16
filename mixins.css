@@ -1,0 +1,336 @@
+/* Import font styles from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Kablammo&family=Lato:ital,wght@1,300&family=Linefont:wght@300&family=Noto+Color+Emoji&family=Noto+Sans+Glagolitic&family=Roboto:wght@700&display=swap");
+/* ---------------------------------------------- Section Divider -------------------------------------------------- */
+/* Apply to the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* First background is visible */
+#summer_one {
+  display: block;
+}
+
+/* Second to last background are invisible */
+#summer_two,
+#summer_three,
+#summer_four,
+#summer_five,
+#summer_six {
+  display: none;
+}
+
+/* ---------------------------------------------- Section Divider -------------------------------------------------- */
+#card_container {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  /* Centers elements inside the parent element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the content inside of card one */
+#card_one {
+  /* Styles for the content inside of card one */
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 80%;
+  height: 85%;
+  font-size: xx-large;
+  border-radius: 15px;
+  border: 3px solid rgba(255, 255, 255, 0.842);
+  /* Centers elements inside the parent element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card_one .img_box {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  /*border: 3px solid white;*/
+  border: 3px solid rgba(255, 255, 255, 0.842);
+  /*filter: brightness(110%);*/
+  z-index: -1;
+}
+#card_one .summer_background {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#card_one .card_one_container .two {
+  /* Sets dimensions */
+  width: 14em;
+  height: 5em;
+  border-radius: 20px;
+  /* Align element vertically */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#card_one .quote {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  width: 55%;
+  padding: 30px;
+  /* Adds text shadow */
+  text-shadow: 2px 2px 4px #3c3c3c;
+}
+
+/* Styles for the rest of the cards */
+#card_two,
+#card_three,
+#card_four,
+#card_five,
+#card_six {
+  /* Styles for the rest of the cards */
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 80%;
+  height: 85%;
+  font-size: xx-large;
+  border-radius: 15px;
+  border: 3px solid rgba(255, 255, 255, 0.842);
+  /* Centers elements inside the parent element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card_two .img_box,
+#card_three .img_box,
+#card_four .img_box,
+#card_five .img_box,
+#card_six .img_box {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  /*border: 3px solid white;*/
+  border: 3px solid rgba(255, 255, 255, 0.842);
+  /*filter: brightness(110%);*/
+  z-index: -1;
+}
+#card_two .summer_background,
+#card_three .summer_background,
+#card_four .summer_background,
+#card_five .summer_background,
+#card_six .summer_background {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#card_two .text_background,
+#card_three .text_background,
+#card_four .text_background,
+#card_five .text_background,
+#card_six .text_background {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Sets dimensions */
+  width: 100%;
+  height: 55%;
+  background-color: rgba(41, 49, 71, 0.8666666667);
+  overflow-y: scroll;
+}
+#card_two .text,
+#card_three .text,
+#card_four .text,
+#card_five .text,
+#card_six .text {
+  /* Centers element */
+  margin: 0 auto;
+  /* Sets font size */
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Fredoka", sans-serif;
+  /* Sets width dimensions */
+  width: 80%;
+  padding: 30px;
+}
+
+.b_one {
+  z-index: 6;
+}
+
+.b_two {
+  z-index: 5;
+}
+
+.b_three {
+  z-index: 4;
+}
+
+.b_four {
+  z-index: 3;
+}
+
+.b_five {
+  z-index: 2;
+}
+
+.b_six {
+  z-index: 1;
+}
+
+/* ---------------------------------------------- Section Divider -------------------------------------------------- */
+#nav_wrapper {
+  /* Centers element vertically and horizontally */
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: brown;
+}
+
+nav {
+  /* Sets alignment of the unordered list */
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+  font-size: 2.2vw;
+  text-decoration: none;
+}
+
+.text_one:hover,
+.text_two:hover,
+.year:hover {
+  color: rgba(255, 255, 255, 0.322);
+}
+
+.year {
+  margin: 9px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+}
+
+.text_one {
+  margin-right: 30px;
+}
+
+.text_two {
+  margin-left: 30px;
+}
+
+.text_one,
+.text_two {
+  font-family: "Kablammo", sans-serif;
+}
+
+/* ---------------------------------------------- Section Divider -------------------------------------------------- */
+h2 {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.842);
+  font-family: "Fredoka", sans-serif;
+}
+
+#button_wrapper {
+  /* Centers element vertically and horizontally */
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Set visibility to hidden */
+  visibility: hidden;
+  /* Bring the element one layer up */
+  z-index: 1;
+  /* 1 row - 2 columns grid */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 90px;
+}
+
+#prevBtn,
+#nextBtn {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 3em;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  color: rgba(255, 255, 255, 0.322);
+}
+
+/* ---------------------------------------------- Section Divider -------------------------------------------------- */
+@media screen and (min-width: 360px) {
+  img {
+    width: auto;
+    height: 100vh;
+  }
+  .t_four {
+    margin: 0 auto;
+  }
+  .t_five {
+    margin: 0 auto;
+  }
+  #nav_wrapper {
+    display: none;
+  }
+  #button_wrapper,
+h2 {
+    visibility: visible;
+  }
+}
+@media screen and (min-width: 980px) {
+  #nav_wrapper {
+    display: block;
+  }
+  #button_wrapper,
+h2 {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1200px) {
+  img {
+    width: 100vw;
+    height: auto;
+  }
+}/*# sourceMappingURL=mixins.css.map */
