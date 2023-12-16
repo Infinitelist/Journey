@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <!-- Script for icon pack - wwww.fontawesome.com -->
+        <script src="https://kit.fontawesome.com/9415abd106.js" crossorigin="anonymous"></script>
+        <title> Journey </title>
+    </head>
+    <body>
+        <main>
+            <!-- Click me text for the arrow buttons -->
+            <h2>Click Me!</h2>
+            <!-- Clickable buttons that are arrows-->
+            <div id="button_wrapper">
+                <div id="prevBtn" onclick="prevCard()" type="button">
+                    <i class="fa-regular fa-circle-left"></i>
+                </div>
+                <div id="nextBtn" onclick="nextCard()" type="button">
+                    <i class="fa-regular fa-circle-right"></i>
+                </div>
+            </div>
+            <!-- All the images for the background -->
+            <div id="summer_wrapper">
+                <img id="summer_one" src="Summer3.png" alt="2D game summer background">
+                <img id="summer_two" src="Summer4.png" alt="2D game summer background">
+                <img id="summer_three" src="Summer5.png" alt="2D game summer background">
+                <img id="summer_four" src="Summer6.png" alt="2D game summer background">
+                <img id="summer_five" src="Summer7.png" alt="2D game summer background">
+                <img id="summer_six" src="Summer8.png" alt="2D game summer background">
+            </div>
+            <div id="content_wrapper">
+                <!-- Holds all the cards -->
+                <div id="card_container">
+                    <!-- Card one and its contents-->
+                    <div id="card_one" class="box b_one">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer3.png" alt="2D game summer background">
+                        </div>
+                        <div class="card_one_container">
+                            <div class="card_one_item two">
+                                <p class="quote">
+                                    <i>"Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls."</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Card two and its contents-->
+                    <div id="card_two" class="box b_two">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer4.png" alt="2D game summer background">
+                        </div>
+                        <div class="text_background">
+                            <p class="text t_one">
+                                In 2019, I graduated from Tohopekaliga High School. I started my university journey in the spring of 2020. I would have started sooner, but my entire family moved locations. I applied to Valencia College for their UCF Connect program. I wanted to get my Associate Degree in Computer Science and then transfer to the University of Central Florida after two years.
+                            </p>
+                        </div>
+                    </div>
+                     <!-- Card three and its contents-->
+                    <div id="card_three" class="box b_three">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer5.png" alt="2D game summer background">
+                        </div>
+                        <div class="text_background">
+                            <p class="text t_two">
+                                In 2021, Covid 19 took off. I spent most of my time studying, working, and finishing my courses. The lack of social interaction with other students made the experience rigid. Everyone was at home. My two younger brothers were also there with me, doing online school. It was super stressful at times. Time passed, and I pushed through. I was able to get most of my electives done.
+                            </p>
+                        </div>
+                    </div>
+                     <!-- Card four and its contents-->
+                    <div id="card_four" class="box b_four">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer6.png" alt="2D game summer background">
+                        </div>
+                        <div class="text_background">
+                            <p class="text t_three">
+                                In 2022, I finished my Associate Degree in Computer Science from Valencia. It was time for me to transfer over. On the first day of class, the professor talked too fast. I knew at that very moment Computer Science was not for me. So, I had to pivot to something that best suited me. I found it with the Digital Media bachelor's degree with their website/social platform track.
+                            </p>
+                        </div>
+                    </div>
+                     <!-- Card five and its contents-->
+                    <div id="card_five" class="box b_five">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer7.png" alt="2D game summer background">
+                        </div>
+                        <div class="text_background">
+                            <p class="text t_four">
+                                In 2023, I'm moving in momentum. I am glad I found something I'm good at. I thoroughly enjoy it. It's more than a career pursuit. It's about passion. I want to be the best at my craft, and I will be. It was dark for a little bit. Now, it's time to rise into the sunshine.
+                            </p>
+                        </div>
+                    </div>
+                     <!-- Card six and its contents-->
+                    <div id="card_six" class="box b_six">
+                        <!-- Contains image for card-->
+                        <div class="img_box">
+                            <img class="summer_background" src="Summer8.png" alt="2D game summer background">
+                        </div>
+                        <div class="text_background">
+                            <p class="text t_five">
+                                Monday, Tuesday, Wednesday, Thursday, Friday, Sunday. How many hours did you spend in a day? January, February, March, April, May, June, July, August, September, October, November, December. How many times did you fall into the flow state? I'm proven.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Text base navigation -->
+            <div id="nav_wrapper">
+                <nav>
+                    <a>
+                        <div class="text_one" id="link_one">
+                            Quote
+                        </div>
+                    </a>
+                    <a>
+                        <div class="year" id="link_two">
+                            2020
+                        </div>
+                    </a>
+                    <a>
+                        <div class="year" id="link_three">
+                            2021
+                        </div>
+                    </a>
+                    <a>
+                        <div class="year" id="link_four">
+                            2022
+                        </div>
+                    </a>
+                    <a>
+                        <div class="year" id="link_five">
+                            2023
+                        </div>
+                    </a>
+                    <a>
+                        <div class="text_two" id="link_six">
+                            Beyond
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </main>
+        <!-- Script adds functionality -->
+        <script src="script.js"></script>
+    </body>
+</html>
